@@ -1,0 +1,272 @@
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+#top-nav {
+    display: flex;
+    border-bottom: 1px solid rgb(228, 223, 223);
+    height: 80px;
+}
+
+#top-nav .social-links {
+    width: 33%;
+    text-align: center;
+    /* background-color: chocolate; */
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    line-height: 5em;
+}
+
+#top-nav .social-links a i {
+    font-size: 150%;
+    color: rgb(161, 56, 56);
+    margin-right: 20px;
+}
+
+#top-nav .social-links a i:hover {
+    color: darkorange;
+}
+
+#top-nav .name {
+    width: 33%;
+    text-align: center;
+    /* background-color: cornflowerblue; */
+}
+
+#top-nav .name h1 {
+    line-height: 1.2em;
+    font-size: 230%;
+}
+
+#top-nav .name h1 span {
+    color: lightcoral;
+}
+
+#top-nav .name h2 {
+    font-size: 170%;
+    color: lightgray;
+}
+
+#top-nav .search {
+    width: 33%;
+    text-align: center;
+    /* background-color: darkgoldenrod; */
+    line-height: 5em;
+}
+
+#top-nav .search input {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(137, 161, 161);
+    outline: none;
+    border: none;
+}
+
+#top-nav .search button {
+    padding: 5px;
+    background-color: darkgoldenrod;
+    position: relative;
+    right: 40px;
+    border-radius: 30px;
+    width: 40px;
+    outline: none;
+    border: none;
+}
+
+#top-nav .search button:hover {
+    cursor: pointer;
+}
+
+#site-menu {
+    height: 60px;
+    text-align: center;
+    /* background-color: darkturquoise; */
+}
+
+#site-menu a {
+    text-decoration: none;
+    font-size: 140%;
+    margin-right: 50px;
+    line-height: 2.6em;
+}
+
+#site-menu a:hover {
+    border-bottom: 2px solid rgb(134, 131, 131);
+}
+
+#site-menu a:nth-child(1) {
+    color: dimgrey;
+}
+
+#site-menu a:nth-child(1):hover {
+    color: indigo;
+}
+
+#site-menu a:not(:nth-child(1)) {
+    color: rgb(13, 14, 13);
+}
+
+#site-menu a:not(:nth-child(1)):hover {
+    color: rgb(114, 113, 113);
+}
+
+#header-main {
+    /* height: 100vh; */
+    width: 100%;
+    background-image: url(../images/BG.jpg);
+    background-size: cover;
+    padding-bottom: 20%;
+    /* margin-top: 20%; */
+}
+
+#header-main .header-content h1 {
+    font-size: 350%;
+    font-weight: bold;
+    /* margin-top: 20%; */
+    padding-top: 15%;
+    margin-left: 10%;
+}
+
+#header-main .header-content h2 {
+    font-size: 150%;
+    padding-top: 2%;
+    margin-left: 10%;
+}
+
+#header-main .header-content button {
+    padding: 20px 30px;
+    margin-top: 40px;
+}
+
+#header-main .header-content .first {
+    margin-left: 10%;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(18, 105, 204, 0.7);
+    /* border: none; */
+}
+
+#header-main .header-content .first:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #333;
+}
+
+#header-main .header-content .second {
+    margin-left: 1%;
+    border-radius: 5px;
+    outline: none;
+    /* border: none; */
+}
+
+#header-main .header-content .second:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #333;
+}
+
+#section-info .container {
+    display: flex;
+}
+
+#section-info .container .column .round-icon-div {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border-radius: 100%;
+    margin: auto;
+    /* position: relative;
+    bottom: 150px; */
+}
+
+#section-info .container .column .round-icon-div:hover {
+    background-color: rgba(128, 112, 112, 0.4);
+}
+
+#section-info .container .column {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#section-info .container .column h1 {
+    font-size: 210%;
+    margin-top: 20px;
+}
+
+#section-info .container .column h1 a {
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+}
+
+#section-info .container .column p {
+    font-size: 130%;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+
+#followers {
+    display: flex;
+    background-color: rgb(219, 214, 214);
+    padding-bottom: 4%;
+}
+
+#followers div {
+    width: 25%;
+    text-align: center;
+}
+
+#followers .number {
+    font-size: 170%;
+    font-weight: bold;
+    line-height: 4em;
+}
+
+#followers div h1 {
+    font-size: 160%;
+    font-weight: 500;
+}
+
+#authors {
+    width: 75%;
+    margin: 4% auto;
+    display: flex;
+}
+
+#authors .important-img img {
+    width: 500px;
+    height: 500px;
+}
+
+#authors .authors-info {
+    margin-left: 30px;
+}
+
+#authors .authors-info h3 {
+    margin-top: 50px;
+    color: lightsalmon;
+    font-size: 140%;
+}
+
+#authors .authors-info h1 {
+    margin-top: 20px;
+    font-size: 350%;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+#authors .authors-info p {
+    margin-top: 10px;
+    font-size: 110%;
+    line-height: 1.5em;
+}
+
+#authors .authors-info button {
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
