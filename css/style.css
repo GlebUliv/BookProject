@@ -114,18 +114,15 @@ body {
 }
 
 #header-main {
-    /* height: 100vh; */
     width: 100%;
     background-image: url(../images/BG.jpg);
     background-size: cover;
     padding-bottom: 20%;
-    /* margin-top: 20%; */
 }
 
 #header-main .header-content h1 {
     font-size: 350%;
     font-weight: bold;
-    /* margin-top: 20%; */
     padding-top: 15%;
     margin-left: 10%;
 }
@@ -146,7 +143,6 @@ body {
     border-radius: 5px;
     outline: none;
     background-color: rgba(18, 105, 204, 0.7);
-    /* border: none; */
 }
 
 #header-main .header-content .first:hover {
@@ -158,7 +154,6 @@ body {
     margin-left: 1%;
     border-radius: 5px;
     outline: none;
-    /* border: none; */
 }
 
 #header-main .header-content .second:hover {
@@ -176,8 +171,6 @@ body {
     background-color: lightgreen;
     border-radius: 100%;
     margin: auto;
-    /* position: relative;
-    bottom: 150px; */
 }
 
 #section-info .container .column .round-icon-div:hover {

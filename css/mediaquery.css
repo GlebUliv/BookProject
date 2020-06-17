@@ -1,15 +1,22 @@
 @media screen and (max-width: 1140px) {
-    #section-info .container  {
+    #section-info .container {
         display: flex;
         flex-direction: column;
     }
-    #authors{
+    #authors {
         display: flex;
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    #top-nav .search {
+        width: 25%;
+    }
+    #top-nav .search button {
+        bottom: 80px;
+        left: 60px;
+    }
     .footer-list-header {
         font-size: 2em;
     }
@@ -22,9 +29,26 @@
     .footer-social-overlap>a {
         font-size: 2.24em;
     }
+    #top-nav .name h1 {
+        line-height: 1em;
+        font-size: 180%;
+    }
+    #top-nav .name h2 {
+        font-size: 130%;
+    }
 }
 
-@media only screen and (max-width: 568px) {
+@media screen and (max-width: 568px) {
+    #top-nav .search {
+        width: 25%;
+    }
+    #top-nav .search input {
+        margin: 0 0px;
+    }
+    #top-nav .search button {
+        bottom: 80px;
+        left: 75px;
+    }
     main {
         font-size: 5em;
     }
@@ -61,18 +85,55 @@
     .footer-social-overlap>a:not(:first-child) {
         margin-left: 20px;
     }
+    #top-nav .name h1 {
+        margin: 5px 0;
+        /* line-height: 1.5em; */
+        font-size: 150%;
+    }
+    #top-nav .name h2 {
+        font-size: 100%;
+        /* line-height: 1.5em; */
+    }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    #top-nav .search {
+        width: 15%;
+    }
+    #top-nav .search input {
+        margin: 0 50px;
+    }
+    #top-nav .search button {
+        bottom: 80px;
+        left: 150px;
+    }
+    #top-nav .social-links {
+        display: none;
+    }
+    #section-info .container .column .round-icon-div {
+        width: 150px;
+        height: 150px;
+    }
+    #section-info .container .column {
+        bottom: 70px;
+    }
     .footer-social-overlap>a {
         margin: auto;
     }
     .footer-social-overlap>a:not(:first-child) {
         margin-left: 0;
     }
+    #top-nav .name h1 {
+        line-height: 1.5em;
+        font-size: 100%;
+    }
+    #top-nav .name h2 {
+        font-size: 100%;
+        line-height: 1.5em;
+    }
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .footer-list-header {
         font-size: 2.2em;
     }
@@ -84,5 +145,13 @@
     }
     .footer-social-overlap>a {
         font-size: 2.24em;
+    }
+    #top-nav .name h1 {
+        line-height: 1.5em;
+        font-size: 100%;
+    }
+    #top-nav .name h2 {
+        font-size: 100%;
+        line-height: 1.5em;
     }
 }
